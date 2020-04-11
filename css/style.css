@@ -1,0 +1,36 @@
+/*Make header image responsive*/
+
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+
+/*change Brand Font*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*Change Navigation Color*/
+.navbar #myMenu .custom-nav .nav-item a{
+    color: #fff;
+}
+
+/*cahnge navigation hover color*/
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #F0AAB1;
+}
+
+/*Change Link color*/
+a{
+    color: #DC3545;
+}
+
+a:hover{
+    color: #E994A2;
+}
